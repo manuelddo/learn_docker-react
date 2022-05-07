@@ -8,5 +8,3 @@ before_install:
 
 script:
   - docker run -e CI=true manuelddo/learn_docker-react npm run test
-
-##test
